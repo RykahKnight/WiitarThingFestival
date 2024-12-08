@@ -1,6 +1,8 @@
-# WiitarThing
+# WiitarThingFestival
 
-A program that lets you connect Wii Guitar Hero instruments to a Windows PC wirelessly using a wiimote and Bluetooth.
+A quick hack of the TheNathannator's fork of WiitarThing, changing what keys get mapped to what for compatbility with Fortnite Festival.
+
+WiitarThing is a program that lets you connect Wii Guitar Hero instruments to a Windows PC wirelessly using a wiimote and Bluetooth.
 
 ## Table of Contents
 

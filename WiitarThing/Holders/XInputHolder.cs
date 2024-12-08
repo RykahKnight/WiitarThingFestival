@@ -238,10 +238,10 @@ namespace WiitarThing.Holders
                     result.Add(Wiimote.InputNames.ONE, Inputs.Xbox360.X); //Blue
                     result.Add(Wiimote.InputNames.TWO, Inputs.Xbox360.LB); //Orange
 
-                    result.Add(Wiimote.InputNames.UP, Inputs.Xbox360.BACK); //SP
+                    result.Add(Wiimote.InputNames.UP, Inputs.Xbox360.RB); //SP
 
                     result.Add(Wiimote.InputNames.PLUS, Inputs.Xbox360.START);
-                    result.Add(Wiimote.InputNames.MINUS, Inputs.Xbox360.BACK);
+                    result.Add(Wiimote.InputNames.MINUS, Inputs.Xbox360.RB);
                     result.Add(Wiimote.InputNames.HOME, Inputs.Xbox360.GUIDE);
 
                     //result.Add(Wiimote.InputNames.LEFT,  Inputs.Xbox360.DOWN);
@@ -251,17 +251,17 @@ namespace WiitarThing.Holders
 
 
 
-                    result.Add(Wiimote.InputNames.ACC_SHAKE_X, Inputs.Xbox360.RRIGHT);
-                    result.Add(Wiimote.InputNames.ACC_SHAKE_Y, Inputs.Xbox360.RRIGHT);
-                    result.Add(Wiimote.InputNames.ACC_SHAKE_Z, Inputs.Xbox360.RRIGHT);
-                    result.Add(Wiimote.InputNames.TILT_RIGHT, "");
-                    result.Add(Wiimote.InputNames.TILT_LEFT, "");
-                    result.Add(Wiimote.InputNames.TILT_UP, "");
-                    result.Add(Wiimote.InputNames.TILT_DOWN, "");
-                    result.Add(Wiimote.InputNames.IR_RIGHT, "");
-                    result.Add(Wiimote.InputNames.IR_LEFT, "");
-                    result.Add(Wiimote.InputNames.IR_UP, "");
-                    result.Add(Wiimote.InputNames.IR_DOWN, "");
+                   // result.Add(Wiimote.InputNames.ACC_SHAKE_X, Inputs.Xbox360.RRIGHT);
+                   // result.Add(Wiimote.InputNames.ACC_SHAKE_Y, Inputs.Xbox360.RRIGHT);
+                   // result.Add(Wiimote.InputNames.ACC_SHAKE_Z, Inputs.Xbox360.RRIGHT);
+                   // result.Add(Wiimote.InputNames.TILT_RIGHT, "");
+                   // result.Add(Wiimote.InputNames.TILT_LEFT, "");
+                   // result.Add(Wiimote.InputNames.TILT_UP, "");
+                   // result.Add(Wiimote.InputNames.TILT_DOWN, "");
+                   // result.Add(Wiimote.InputNames.IR_RIGHT, "");
+                   // result.Add(Wiimote.InputNames.IR_LEFT, "");
+                   // result.Add(Wiimote.InputNames.IR_UP, "");
+                   // result.Add(Wiimote.InputNames.IR_DOWN, "");
                     break;
 
                 case ControllerType.Guitar:
@@ -277,15 +277,15 @@ namespace WiitarThing.Holders
                     result.Add(Guitar.InputNames.LEFT, Inputs.Xbox360.LEFT);
                     result.Add(Guitar.InputNames.RIGHT, Inputs.Xbox360.RIGHT);
 
-                    result.Add(Guitar.InputNames.SELECT, Inputs.Xbox360.BACK);
-                    result.Add(Guitar.InputNames.START, Inputs.Xbox360.START);
+                    result.Add(Guitar.InputNames.SELECT, Inputs.Xbox360.RB);
+                    result.Add(Guitar.InputNames.START, Inputs.Xbox360.LT);
                     result.Add(Guitar.InputNames.HOME, Inputs.Xbox360.GUIDE);
 
-                    result.Add(Guitar.InputNames.WHAMMYLOW, Inputs.Xbox360.RLEFT);
-                    result.Add(Guitar.InputNames.WHAMMYHIGH, Inputs.Xbox360.RRIGHT);
+                    //result.Add(Guitar.InputNames.WHAMMYLOW, Inputs.Xbox360.RLEFT);
+                    result.Add(Guitar.InputNames.WHAMMYHIGH, Inputs.Xbox360.RT);
 
-                    result.Add(Guitar.InputNames.TILTLOW, Inputs.Xbox360.RDOWN);
-                    result.Add(Guitar.InputNames.TILTHIGH, Inputs.Xbox360.RUP);
+                    //result.Add(Guitar.InputNames.TILTLOW, Inputs.Xbox360.RDOWN);
+                    //result.Add(Guitar.InputNames.TILTHIGH, Inputs.Xbox360.RUP);
 
                     //result.Add(Wiimote.InputNames.UP, "");
                     //result.Add(Wiimote.InputNames.DOWN, "");
